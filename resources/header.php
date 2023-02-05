@@ -9,8 +9,12 @@
 </head>
 <body>
     <div id="header">
-        <h1>Jservices ✨</h1>
-        <h2>First come first serve! 🔌✨</h2>
+        <div id="logo">
+            Jservices ✨
+        </div>
+        <div id="catchphrase">
+            The Best services🔌✨
+        </div>
     </div>
 </body>
 </html>

@@ -3,11 +3,28 @@ body {
 }
 
 #header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 80px;
+    margin-top: 0px;
     width: 100%;
     height: 40vh;
     background-color: rgb(21, 32, 43);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+#logo{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+#catchphrase{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 
