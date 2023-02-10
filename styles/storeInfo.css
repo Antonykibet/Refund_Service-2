@@ -1,0 +1,49 @@
+body{
+    background: rgb(21, 32, 43);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#weHaveRefunds{
+    height: 20vh;
+    width: 100%;
+    background:  rgb(13, 19, 26);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+#theMinimumAmountIs{
+    height: 20vh;
+    width: 100%;
+    background:  rgb(13, 19, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+#limitContainer{
+    
+    width: 100%;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+#purchase,#item,#order,#refund{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    background:  rgb(13, 19, 26);
+    border: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}

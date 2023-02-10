@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(21, 32, 43);
+}
+div{
+   
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    object-fit: contain;
+}
